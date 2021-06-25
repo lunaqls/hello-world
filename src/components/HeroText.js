@@ -4,14 +4,20 @@ import styled from "styled-components";
 const HeroText = () => {
   return (
     <Container>
-      <h5>Online education for people of all ages</h5>
-      <h1>Learn</h1>
+      <h1>NFT</h1>
       <h1>Anything.</h1>
       <h1>Anytime.</h1>
       <h1>Anywhere.</h1>
+      <h5>Bitski connects communities, creators and brands through unique, ownable digital content. This is how the metaverse begins.</h5>
       <BtnContainer>
-        <button className="readmore">Read More</button>
-        <button>7 Day Free Trial</button>
+        <button
+          className="readmore"
+          type="button"
+          href="https://docs.bitski.com/"
+        >
+          Read More
+        </button>
+        <button>Connect Apps</button>
       </BtnContainer>
     </Container>
   );
@@ -37,7 +43,7 @@ const BtnContainer = styled.div`
   }
 
   .readmore {
-    color: #81d1ff;
+    color: #51d1ff;
     background: transparent;
     border: 3px solid #81d1ff;
     &:hover {
@@ -60,14 +66,14 @@ const Container = styled.div`
     font-weight: 900;
 
     &:nth-of-type(1) {
-      color: #af60ff;
+      color: #ffcb45;
       font-weight: 700;
     }
     &:nth-of-type(2) {
-      color: #8849c7;
+      color: #0a173a;
     }
     &:nth-of-type(3) {
-      color: #651fac;
+      color: #ffcb45;
     }
     &:nth-of-type(4) {
       color: #3c0473;

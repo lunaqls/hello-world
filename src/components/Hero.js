@@ -6,6 +6,22 @@ import HeroText from "./HeroText";
 import Tilt from "react-tilt";
 
 const Hero = () => {
+
+  let checked = false
+
+  let getSelectedSVG = image
+
+  const toggleCheck = () => {
+    checked = !checked
+    if (checked) {
+      getSelectedSVG = "../assets/heroShoe.png"
+    } else {
+      getSelectedSVG = "../assets/heroTicket.png"
+    }
+    
+  }
+  let checkbox = getSelectedSVG
+
   return (
     <Container bg={bg}>
       <Wrapper>
@@ -14,7 +30,7 @@ const Hero = () => {
             <HeroText />
           </Left>
           <TiltWrapper options={{ max: 25 }}>
-            <Img src={image} alt="@gouthamgtronics" />
+            <Img src={image} alt="@gouthamgtronics" src={checkbox} onClick={toggleCheck} />
           </TiltWrapper>
         </InnerWrapper>
       </Wrapper>

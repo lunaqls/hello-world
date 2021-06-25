@@ -16,8 +16,8 @@ const Nav = () => {
       </Hamburger>
         <Wrapper>
             <SearchIcon />
-          <a href="https://www.google.com/">Login</a>
-          <Button>Join Now</Button>
+          <a href="https://wallet.bitski.com/">Login</a>
+          <Button>Wallet</Button>
         </Wrapper>
       </Container>
     </OuterContainer>
@@ -81,7 +81,7 @@ const Wrapper = styled.div``;
 
 const Button = styled.button`
   font-size: 0.8rem;
-  background: #f774c5;
+  background: #ffcb45;
   border: none;
   padding: 0.8rem 1.1rem;
   color: #fff;

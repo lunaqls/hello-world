@@ -17,7 +17,7 @@ const Navbar = () => {
           <LinkWrapper>
             <MenuLink href="">Search</MenuLink>
             <MenuLink href="">Login</MenuLink>
-            <Button>Join Now</Button>
+            <Button>Wallet</Button>
           </LinkWrapper>
         </Menu>
       </Container>
@@ -29,7 +29,7 @@ export default Navbar;
 
 const Button = styled.button`
   font-size: 0.8rem;
-  background: #f774c5;
+  background: #ffcb45;
   border: none;
   padding: 0.8rem 1.1rem;
   color: #fff;
@@ -148,7 +148,7 @@ const Hamburger = styled.div`
   span {
     height: 2px;
     width: 25px;
-    background: #f774c5;
+    background: #ffcb45;
     margin-bottom: 4px;
     border-radius: 5px;
   }
