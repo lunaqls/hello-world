@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import image from "../assets/hero.png";
-import bg from "../assets/bg.png";
+import bg from "../assets/heroShoe.png";
+import image from "../assets/heroTicket.png";
 import HeroText from "./HeroText";
 import Tilt from "react-tilt";
 

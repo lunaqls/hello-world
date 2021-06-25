@@ -8,7 +8,7 @@ const HeroText = () => {
       <h1>Anything.</h1>
       <h1>Anytime.</h1>
       <h1>Anywhere.</h1>
-      <h5>Bitski connects communities, creators and brands through unique, ownable digital content. This is how the metaverse begins.</h5>
+      <h3>Bitski connects communities, creators and brands through unique, ownable digital content. This is how the metaverse begins.</h3>
       <BtnContainer>
         <button
           className="readmore"
@@ -26,28 +26,28 @@ const HeroText = () => {
 const BtnContainer = styled.div`
   margin-top: 2rem;
   button {
-    background: #81d1ff;
+    background: #0a173a;
     border: none;
     padding: 0.9rem 1.1rem;
     color: #fff;
     border-radius: 1rem;
-    box-shadow: 0px 13px 24px -7px #81d1ff;
+    box-shadow: 0px 13px 24px -7px #0a173a;
     transition: all 0.3s ease-in-out;
     margin: 0.5rem;
     font-size: 0.8rem;
     cursor: pointer;
     &:hover {
-      box-shadow: 0px 17px 16px -11px #81d1ff;
+      box-shadow: 0px 17px 16px -11px #0a173a;
       transform: translateY(-5px);
     }
   }
 
   .readmore {
-    color: #51d1ff;
+    color: #0a173a;
     background: transparent;
-    border: 3px solid #81d1ff;
+    border: 3px solid #0a173a;
     &:hover {
-      box-shadow: 0px 17px 16px -11px #81d1ff;
+      box-shadow: 0px 17px 16px -11px #0a173a;
       transform: translateY(-5px);
     }
   }
@@ -55,11 +55,12 @@ const BtnContainer = styled.div`
 
 const Container = styled.div`
   padding: 1rem;
-  h5 {
+  h3 {
     color: #515151;
     font-weight: 500;
     font-size: 0.9rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   h1 {
     font-size: 3.5rem;
